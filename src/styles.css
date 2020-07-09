@@ -1,8 +1,11 @@
 @font-face {
     font-family: 'Rockville Solid Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Rockville Solid Regular'), url('./fonts/Rockville\ Solid.woff') format('woff');
+    src: url('./fonts/Rockville\ Solid.woff'); /* IE9 Compat Modes */
+    src: url('./fonts/Rockville\ Solid.woff') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Rockville\ Solid.woff') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/Rockville\ Solid.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./fonts/Rockville\ Solid.woff')  format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Rockville\ Solid.woff') format('svg'); /* Legacy iOS */
     }
 
 section .hero-content h1 {
