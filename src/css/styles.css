@@ -509,10 +509,9 @@ a,.button{transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;
   color: #fff;
   margin-bottom: 1.8rem;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 13px!important;
   text-align: center;
   font-family: "Montserrat", Sans-serif;
-  
   }
 .projects .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded{margin:0 auto;font-size:18px;padding:1.2rem;font-weight:400;border-width:2px;color:white;}
 .projects .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded span.icon{margin-top:4px;margin-left:0px;}
