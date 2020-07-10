@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Rockville Solid Regular';
-    src: url('./fonts/Rockville\ Solid.woff');  
-    src: url('./fonts/Rockville\ Solid.woff') format('embedded-opentype'), 
-        url('./fonts/Rockville\ Solid.woff') format('woff2'),  
-        url('./fonts/Rockville\ Solid.woff') format('woff'),
-        url('./fonts/Rockville\ Solid.woff')  format('truetype'), 
-        url('./fonts/Rockville\ Solid.woff') format('svg');  
-    }
-
 section .hero-content h1 {
     user-select: none;
     position: absolute;
@@ -791,3 +781,13 @@ a,
 .projects .project-grid figure:hover figcaption {
   opacity: 1;
 }
+
+@font-face {
+  font-family: 'Rockville Solid Regular';
+  src: url('./fonts/Rockville\ Solid.woff');  
+  src: url('./fonts/Rockville\ Solid.woff') format('embedded-opentype'), 
+      url('./fonts/Rockville\ Solid.woff') format('woff2'),  
+      url('./fonts/Rockville\ Solid.woff') format('woff'),
+      url('./fonts/Rockville\ Solid.woff')  format('truetype'), 
+      url('./fonts/Rockville\ Solid.woff') format('svg');  
+  }
