@@ -709,6 +709,14 @@ a, .button {
 }
 
 
+.mb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .projects .project-grid figure:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -717,10 +725,6 @@ a, .button {
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover figcaption,
 figcaption:hover {
-  opacity: 1;
-}
-
-figure *:hover {
   opacity: 1;
 }
 
