@@ -480,14 +480,6 @@ figure {
   margin-bottom: 1.5rem;
 }
 
-.image.is-3by2 img {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
 .button {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -552,16 +544,6 @@ span {
   font-weight: inherit;
 }
 
-.is-size-5 {
-  font-size: 1.25rem !important;
-}
-
-@media screen and (min-width: 1216px) {
-  .is-size-4-widescreen {
-    font-size: 1.5rem !important;
-  }
-}
-
 .button {
   font-size: 28px;
   border: none;
@@ -583,55 +565,8 @@ span {
   width: 1.5em;
 }
 
-.button .icon:last-child:not(:first-child) {
-  margin-left: 0.25em;
-  margin-right: calc(-0.5em - 1px);
-}
-
 .button:hover , .button:active, .button:focus {
   color: #e6e6e6;
-}
-
-.button.is-primary {
-  background-color: #7510F7;
-  border-color: transparent;
-  color: #fff;
-}
-
-.button.is-primary:hover {
-  background-color: #6e08f2;
-  border-color: transparent;
-  color: #fff;
-}
-
-.button.is-primary:focus {
-  border-color: transparent;
-  color: #fff;
-}
-
-.button.is-primary:active {
-  background-color: #6908e6;
-  border-color: transparent;
-  color: #fff;
-}
-
-.button.is-primary.is-outlined {
-  background-color: transparent;
-  border-color: #7510F7;
-  color: #7510F7;
-}
-
-.button.is-primary.is-outlined:hover,
-.button.is-primary.is-outlined:focus {
-  background-color: #7510F7;
-  border-color: #7510F7;
-  color: #fff;
-}
-
-.button.is-rounded {
-  border-radius: 290486px;
-  padding-left: calc(1em + 0.25em);
-  padding-right: calc(1em + 0.25em);
 }
 
 .icon {
@@ -654,15 +589,6 @@ span {
   display: block;
   height: auto;
   width: 100%;
-}
-
-.image.is-3by2 img {
-  height: 100%;
-  width: 100%;
-}
-
-.image.is-3by2 {
-  padding-top: 66.6666%;
 }
 
 .title {
@@ -703,12 +629,6 @@ a, .button {
   font-size: 13px;
 
 
-}
-
-
-
-.button.is-outlined {
-  border-width: 2px;
 }
 
 .projects .project-grid {
@@ -795,7 +715,7 @@ a, .button {
 
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover figcaption,
-figure:hover {
+.overlay:hover {
   opacity: 1;
 }
 
