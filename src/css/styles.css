@@ -685,12 +685,21 @@ span {
   font-weight: 800;
 }
 
-a,
-.button {
+a, .button {
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   font-weight: 400;
 }
+
+.button span {
+  position: absolute; 
+  top: 77%;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 13px;
+
+
+}
+
 
 
 .button.is-outlined {
@@ -753,8 +762,10 @@ a,
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: .45s ease-in-out;
-  transition: .45s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .projects .project-grid .overlay {
