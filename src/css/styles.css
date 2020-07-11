@@ -664,6 +664,7 @@ a, .button {
   z-index: 1;
 }
 
+
 @media screen and (min-width: 769px) {
   .projects .project-grid figure figcaption {
     padding: 0 25px;
