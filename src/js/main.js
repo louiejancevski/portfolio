@@ -6,7 +6,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-$(".image").hover(function () {
-    $(this).find('figcaption').fadeIn(100);
-}
