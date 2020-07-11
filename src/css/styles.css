@@ -715,7 +715,11 @@ a, .button {
 
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover figcaption,
-.overlay:hover {
+figcaption:hover {
+  opacity: 1;
+}
+
+figure *:hover {
   opacity: 1;
 }
 
