@@ -716,7 +716,6 @@ a, .button {
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover figcaption {
   opacity: 1;
-  pointer-events: auto;
 }
 
 
