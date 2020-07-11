@@ -714,14 +714,9 @@ a, .button {
 }
 
 .projects .project-grid figure:hover .overlay,
-.projects .project-grid figure:hover figcaption,
-.projects .project-grid figure:hover figcaption  .row a {
+.projects .project-grid figure:hover figcaption {
   opacity: 1;
-  pointer-events: auto!important;
-}
-
-figcaption .row a{
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 
