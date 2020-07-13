@@ -650,7 +650,6 @@ a, .button {
 }
 
 .projects .project-grid figure figcaption {
-  user-select: none;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -714,7 +713,8 @@ a, .button {
 }
 
 .projects .project-grid figure:hover .overlay,
-.projects .project-grid figure:hover figcaption {
+.projects .project-grid figure:hover figcaption,
+figcaption:hover {
   opacity: 1;
 }
 
