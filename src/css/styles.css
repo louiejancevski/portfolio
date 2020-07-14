@@ -636,7 +636,6 @@ a, .button {
 .projects .project-grid figure {
   position: relative;
   overflow: hidden!important;
-  border-radius: 12px!important;
   box-shadow: 5px 0px 7px 0px rgba(0, 0, 0, 0.22);
 }
 
@@ -697,6 +696,7 @@ a, .button {
 }
 
 .projects .project-grid .overlay {
+  border-radius: 12px;
   background-color: #141c3a;
   animation: backgroundanmiation 30s infinite;
 }
