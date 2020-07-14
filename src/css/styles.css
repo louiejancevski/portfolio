@@ -649,6 +649,7 @@ a, .button {
 
 .projects .project-grid figure .card-content {
   display: -webkit-box;
+  overflow: hidden;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
