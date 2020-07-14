@@ -636,7 +636,7 @@ a, .button {
 .projects .project-grid figure {
   position: relative;
   overflow: hidden!important;
-  border-radius: 12px;
+  border-radius: 12px!important;
   box-shadow: 5px 0px 7px 0px rgba(0, 0, 0, 0.22);
 }
 
@@ -712,6 +712,7 @@ a, .button {
 
 
 .projects .project-grid figure:hover img {
+  border-radius: 12px!important;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -719,6 +720,7 @@ a, .button {
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover .card-content,
 .card-content:hover {
+  border-radius: 12px!important;
   opacity: 1;
 }
 
