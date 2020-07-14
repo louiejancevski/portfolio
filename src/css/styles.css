@@ -640,11 +640,12 @@ a, .button {
   box-shadow: 5px 0px 7px 0px rgba(0, 0, 0, 0.22);
 }
 
-.projects .project-grid figure img.project-thumb {
+.projects .project-grid figure img {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
+  border-radius: 12px;  
 }
 
 .projects .project-grid figure .card-content {
