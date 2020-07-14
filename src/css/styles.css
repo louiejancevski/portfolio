@@ -645,13 +645,11 @@ a, .button {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-  border-radius: 12px;  
+  transition: all .25s ease-in-out;  
 }
 
 .projects .project-grid figure .card-content {
   display: -webkit-box;
-  border-radius: 12px;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -700,7 +698,6 @@ a, .button {
 }
 
 .projects .project-grid .overlay {
-  border-radius: 12px;
   background-color: #141c3a;
   animation: backgroundanmiation 30s infinite;
 }
@@ -716,7 +713,8 @@ a, .button {
 
 
 .projects .project-grid figure:hover img {
-
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .projects .project-grid figure:hover .overlay,
