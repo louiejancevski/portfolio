@@ -518,7 +518,7 @@ h1 {
 }
 
 img {
-  border-radius: 12px;
+  border-radius: 12px!important;
   height: auto;
   max-width: 100%;
 }
@@ -580,13 +580,13 @@ span {
 }
 
 .image {
-  border-radius: 12px;
+  border-radius: 12px!important;
   display: block;
   position: relative;
 }
 
 .image img {
-  border-radius: 12px;
+  border-radius: 12px!important;
   display: block;
   height: auto;
   width: 100%;
@@ -639,12 +639,12 @@ a, .button {
 .projects .project-grid figure {
   position: relative;
   overflow: hidden!important;
-  border-radius: 12px;
+  border-radius: 12px!important;
   box-shadow: 5px 0px 7px 0px rgba(0, 0, 0, 0.22);
 }
 
 .projects .project-grid figure img {
-  border-radius: 12px;
+  border-radius: 12px!important;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all .25s ease-in-out;
@@ -652,7 +652,7 @@ a, .button {
 }
 
 .projects .project-grid figure .card-content {
-  border-radius: 12px;
+  border-radius: 12px!important;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -689,7 +689,7 @@ a, .button {
 
 .projects .project-grid .overlay,
 .projects .project-grid .card-content {
-  border-radius: 12px;
+  border-radius: 12px!important;
   position: absolute;
   top: 0;
   left: 0;
@@ -720,7 +720,7 @@ a, .button {
 .projects .project-grid figure:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  border-radius: 12px;
+  border-radius: 12px!important;
 }
 
 .projects .project-grid figure:hover .overlay,
