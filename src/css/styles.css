@@ -687,6 +687,7 @@ a, .button {
 
 .projects .project-grid .overlay,
 .projects .project-grid .card-content {
+  border-radius: 12px;
   position: absolute;
   top: 0;
   left: 0;
