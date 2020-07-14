@@ -698,6 +698,7 @@ a, .button {
 }
 
 .projects .project-grid .overlay {
+  border-radius: 12px;
   background-color: #141c3a;
   animation: backgroundanmiation 30s infinite;
 }
