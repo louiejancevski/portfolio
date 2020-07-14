@@ -584,6 +584,7 @@ span {
 }
 
 .image img {
+  border-radius: 12px;
   display: block;
   height: auto;
   width: 100%;
