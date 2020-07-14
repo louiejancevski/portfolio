@@ -518,6 +518,7 @@ h1 {
 }
 
 img {
+  border-radius: 12px;
   height: auto;
   max-width: 100%;
 }
@@ -634,7 +635,6 @@ a, .button {
 }
 
 .projects .project-grid figure {
-  border-radius: 12px;
   position: relative;
   overflow: hidden!important;
   border-radius: 12px;
@@ -650,6 +650,7 @@ a, .button {
 }
 
 .projects .project-grid figure .card-content {
+  border-radius: 12px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
