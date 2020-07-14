@@ -722,8 +722,7 @@ a, .button {
 }
 
 .projects .project-grid figure:hover .overlay,
-.projects .project-grid figure:hover .card-content,
-.card-content:hover {
+.projects .project-grid figure:hover .card-content {
   opacity: 1;
 }
 
