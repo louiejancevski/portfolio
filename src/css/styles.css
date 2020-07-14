@@ -584,7 +584,6 @@ span {
 }
 
 .image img {
-  border-radius: 12px;
   display: block;
   height: auto;
   width: 100%;
@@ -642,6 +641,7 @@ a, .button {
 }
 
 .projects .project-grid figure img {
+  border-radius: 12px;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all .25s ease-in-out;
