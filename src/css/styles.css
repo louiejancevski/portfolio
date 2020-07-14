@@ -634,6 +634,7 @@ a, .button {
 }
 
 .projects .project-grid figure {
+  border-radius: 12px;
   position: relative;
   overflow: hidden!important;
   box-shadow: 5px 0px 7px 0px rgba(0, 0, 0, 0.22);
