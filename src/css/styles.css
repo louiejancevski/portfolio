@@ -712,15 +712,12 @@ a, .button {
 
 
 .projects .project-grid figure:hover img {
-  border-radius: 12px!important;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
 }
 
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover .card-content,
 .card-content:hover {
-  border-radius: 12px!important;
   opacity: 1;
 }
 
