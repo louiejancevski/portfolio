@@ -446,11 +446,9 @@ section .hero-content h1 {
       margin-right: 0;
     }
   
-
-/*! CSS Used from: https://mattfarley.ca/css/main.css */
 a,
 div,
-figcaption,
+.card-content,
 figure,
 h1,
 img,
@@ -463,7 +461,7 @@ span {
   vertical-align: baseline;
 }
 
-figcaption,
+.card-content,
 figure {
   display: block;
 }
@@ -649,7 +647,7 @@ a, .button {
   transition: .25s ease-in-out;
 }
 
-.projects .project-grid figure figcaption {
+.projects .project-grid figure .card-content {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -664,12 +662,12 @@ a, .button {
 
 
 @media screen and (min-width: 769px) {
-  .projects .project-grid figure figcaption {
+  .projects .project-grid figure .card-content {
     padding: 0 25px;
   }
 }
 
-.projects .project-grid figure figcaption h1.title {
+.projects .project-grid figure .card-content h1.title {
   color: #fff;
   margin-bottom: 10px;
   font-weight: 400;
@@ -678,8 +676,14 @@ a, .button {
   font-family: "Montserrat", Sans-serif;
 }
 
+.projects .project-grid a:hover {
+  text-decoration: none;
+  
+}
+
+
 .projects .project-grid .overlay,
-.projects .project-grid figcaption {
+.projects .project-grid .card-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -713,8 +717,8 @@ a, .button {
 }
 
 .projects .project-grid figure:hover .overlay,
-.projects .project-grid figure:hover figcaption,
-figcaption:hover {
+.projects .project-grid figure:hover .card-content,
+.card-content:hover {
   opacity: 1;
 }
 
