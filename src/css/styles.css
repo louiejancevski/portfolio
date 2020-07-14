@@ -650,6 +650,7 @@ a, .button {
 
 .projects .project-grid figure .card-content {
   display: -webkit-box;
+  border-radius: 12px;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
