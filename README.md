@@ -13,6 +13,6 @@ I'm working on a completely new version in which I'm using the MERN stack to add
 Such functionalies are: 
 
 - A blog.
-- All my projects live versions hosted on the same domain.
+- All my projects hosted on the same domain.
 - And other cool things!
 
