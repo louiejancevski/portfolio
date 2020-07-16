@@ -5,7 +5,7 @@
 ## URL / Live version 
 - https://louiejancevski.github.io/portfolio/
 
-## Future idea
+## Future ideas
 Currently being served as a static website. 
 
 I'm currently working on a completely new version in which I'm using the MERN stack to add more functionalities to the site. 
