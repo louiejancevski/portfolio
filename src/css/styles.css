@@ -23,7 +23,7 @@ section .hero-content h1 {
     left: 50%;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 6px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -602,7 +602,7 @@ span {
 a, .button {
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .button span {
@@ -663,9 +663,16 @@ a, .button {
   font-size: 15px !important;
 }
 
+.projects .project-grid a.button:hover {
+  text-decoration: none;
+  transform: scale(1.09);
+  transition: transform 0.8s;
+}
+
 .projects .project-grid a:hover {
   text-decoration: none;
 }
+
 
 .projects .project-grid .overlay,
 .projects .project-grid .card-content {
