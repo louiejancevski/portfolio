@@ -671,6 +671,15 @@ a, .button {
   color: #fff;
   margin-bottom: 10px;
   font-weight: 400;
+  font-size: 19px !important;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.projects .project-grid figure .card-content h2.description {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 400;
   font-size: 15px !important;
   text-align: center;
   font-family: "Montserrat", Sans-serif;
@@ -722,7 +731,7 @@ a, .button {
 .projects .project-grid figure:hover .card-content,
 .card-content:hover {
   border-radius: 12px;
-  opacity: 1;
+  opacity: .9;
 }
 
 
