@@ -8,7 +8,7 @@
 ## Future ideas
 Currently being served as a static website. 
 
-I'm currently working on a completely new version in which I'm using the MERN stack to add more functionalities to the site. 
+I'm working on a completely new version in which I'm using the MERN stack to add more functionalities to the site. 
 
 Such functionalies are: 
 
