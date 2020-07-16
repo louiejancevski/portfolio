@@ -171,10 +171,6 @@ section .hero-content h1 {
     @media only screen and (max-width:1199px),
     only screen and (max-device-width:1199px) {
   
-      header .left-side ul li a {
-        font-size: 35px!important;
-      }
-  
       header .left-side {
         margin-left: 35px!important;
       }
@@ -195,10 +191,6 @@ section .hero-content h1 {
   
     @media only screen and (max-width:991px),
     only screen and (max-device-width:991px) {
-  
-      header .left-side ul li a {
-        font-size: 35px!important;
-      }
   
       header .left-side {
         margin-left: 20px!important;
@@ -242,25 +234,39 @@ section .hero-content h1 {
     }
   
     @media only screen and (max-width: 699px){
-  
+
+      header .left-side ul li {
+        margin: 0 20px!important;
+      }
+
       header .left-side {
-        margin-left: 15px!important;
+        position: relative!important;
+        height: auto!important;
+        top: 65%!important;
+        transform: none!important;
+        margin: 0px 40px;
+      }
+
+      header .left-side ul li a .i{
+        transform: rotate(-90deg) !important;
+        -ms-transform: rotate(-90deg)!important;
       }
   
       section .hero-content h2 {
-        top: 35%;
+        top: 37%;
         font-size: 12px;
   
       }
       section .hero-content h1 {
-        font-size: 90px;
+        font-size: 95px;
       }
     }
   
   
   
     @media only screen and (max-width: 425px){
-  
+
+      
       header .left-side {
         margin-left: 15px!important;
       }
@@ -353,7 +359,6 @@ section .hero-content h1 {
   
     /* Social icons left side*/
     header .left-side {
-      width: 100%;
       height: 100px;
       display: flex;
       flex-wrap: wrap;
@@ -363,7 +368,6 @@ section .hero-content h1 {
       top: 82%;
       transform: translateX(-50%) translateY(-50%) rotate(-90deg);
       margin-left: 30px;
-      z-index: 3;
     }
   
     header .left-side ul {
@@ -445,21 +449,6 @@ section .hero-content h1 {
       width: 30%;
       margin-right: 0;
     }
-  
-a,
-div,
-.card-content,
-figure,
-h1,
-img,
-span {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
 .card-content,
 figure {
@@ -472,10 +461,6 @@ figure {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-.title:not(:last-child) {
-  margin-bottom: 1.5rem;
 }
 
 .button {
@@ -625,8 +610,6 @@ a, .button {
   top: 77%;
   font-family: "Montserrat", Sans-serif;
   font-size: 13px;
-
-
 }
 
 .projects .project-grid {
@@ -660,14 +643,14 @@ a, .button {
   z-index: 1;
 }
 
-
 @media screen and (min-width: 769px) {
   .projects .project-grid figure .card-content {
     padding: 0 25px;
   }
 }
 
-.projects .project-grid figure .card-content h1.title {
+.projects .project-grid figure .card-content h1.title, 
+.projects .project-grid figure .card-content h2.description {
   color: #fff;
   margin-bottom: 10px;
   font-weight: 400;
@@ -677,19 +660,12 @@ a, .button {
 }
 
 .projects .project-grid figure .card-content h2.description {
-  color: #fff;
-  margin-bottom: 10px;
-  font-weight: 400;
   font-size: 15px !important;
-  text-align: center;
-  font-family: "Montserrat", Sans-serif;
 }
 
 .projects .project-grid a:hover {
   text-decoration: none;
-  
 }
-
 
 .projects .project-grid .overlay,
 .projects .project-grid .card-content {
@@ -712,12 +688,12 @@ a, .button {
 }
 
 @keyframes backgroundanmiation {
-0% {background-color: #0f5fc5;}
-20%{background-color: #0f5fc5;}
-40%{background-color:#ff895d;}
-60%{background-color:#ff895d;}
-80%{background-color:#17bec7;}
-100% {background-color: #0f5fc5;}
+  0% {background-color: #0f5fc5;}
+  20%{background-color: #0f5fc5;}
+  40%{background-color:#ff895d;}
+  60%{background-color:#ff895d;}
+  80%{background-color:#17bec7;}
+  100% {background-color: #0f5fc5;}
 }
 
 
@@ -743,4 +719,4 @@ a, .button {
       url('../fonts/Rockville\ Solid.woff') format('woff'),
       url('../fonts/Rockville\ Solid.woff')  format('truetype'), 
       url('../fonts/Rockville\ Solid.woff') format('svg');  
-  }
+}
