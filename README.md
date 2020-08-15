@@ -3,7 +3,7 @@
 - Version 1.0
 
 ## URL / Live version 
-- https://louiejancevski.github.io/portfolio/
+- [louiejancevski.github.io](https://louiejancevski.github.io/)
 
 ## Future ideas
 Currently being served as a static website. 
