@@ -514,7 +514,7 @@ span {
 }
 
 .button {
-	font-size: 28px;
+	font-size: 24px;
 	border: none;
 	border-width: 1px;
 	color: #fff;
@@ -654,8 +654,6 @@ a,
 
 .projects .project-grid a.button:hover {
 	text-decoration: none;
-	transform: scale(1.09);
-	transition: transform 0.8s;
 }
 
 .projects .project-grid a:hover {
@@ -711,7 +709,7 @@ a,
 .projects .project-grid figure:hover .overlay,
 .projects .project-grid figure:hover .card-content,
 .card-content:hover {
-	border-radius: 10px;
+	border-radius: 5px;
 	opacity: 0.9;
 }
 
