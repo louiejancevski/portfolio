@@ -171,11 +171,12 @@ body {
 	margin-bottom: 20px;
 	color: #3d4e60;
 	font-family: 'Montserrat', Sans-serif;
-	font-size: 22px;
+	font-size: 23px;
 	font-weight: 300;
 }
 
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1199px),
+	only screen and (max-device-width: 1199px) {
 	header .left-side {
 		margin-left: 35px !important;
 	}
@@ -193,7 +194,8 @@ body {
 	}
 }
 
-@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+@media only screen and (max-width: 991px),
+	only screen and (max-device-width: 991px) {
 	header .left-side {
 		margin-left: 20px !important;
 	}
@@ -215,7 +217,8 @@ body {
 	}
 }
 
-@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px),
+	only screen and (max-device-width: 767px) {
 	section .hero-content h1 {
 		font-size: 145px;
 	}
@@ -274,7 +277,8 @@ body {
 	}
 }
 
-@media only screen and (max-width: 323px), only screen and (max-device-width: 323px) {
+@media only screen and (max-width: 323px),
+	only screen and (max-device-width: 323px) {
 	header .left-side {
 		margin-left: 13px !important;
 	}
@@ -675,10 +679,28 @@ a,
 	transition: 0.3s ease-in-out;
 }
 
+.card-content .row {
+	justify-content: center;
+}
+
 .projects .project-grid .overlay {
 	border-radius: 5px;
 	background-color: #141c3a;
 	animation: backgroundanmiation 30s infinite;
+}
+
+@keyframes forceYellow {
+	from {
+		background-color: yellow;
+	}
+	to {
+		background-color: yellow;
+	}
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-17f70m7 {
+	background: black !important;
+	animation: 1s linear infinite forceYellow !important;
 }
 
 @keyframes backgroundanmiation {
@@ -717,5 +739,9 @@ a,
 @font-face {
 	font-family: 'Rockville Solid Regular';
 	src: url('../fonts/Rockville\ Solid.woff');
-	src: url('../fonts/Rockville\ Solid.woff') format('embedded-opentype'), url('../fonts/Rockville\ Solid.woff') format('woff2'), url('../fonts/Rockville\ Solid.woff') format('woff'), url('../fonts/Rockville\ Solid.woff') format('truetype'), url('../fonts/Rockville\ Solid.woff') format('svg');
+	src: url('../fonts/Rockville\ Solid.woff') format('embedded-opentype'),
+		url('../fonts/Rockville\ Solid.woff') format('woff2'),
+		url('../fonts/Rockville\ Solid.woff') format('woff'),
+		url('../fonts/Rockville\ Solid.woff') format('truetype'),
+		url('../fonts/Rockville\ Solid.woff') format('svg');
 }
